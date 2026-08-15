@@ -30,16 +30,7 @@
 
 ## 规则来源
 
-配置按“局域网/中国/Apple 直连 → 广告拦截 → AI/流媒体/国际服务 → 广义代理 → GEOIP 中国直连 → 兜底”的顺序组织，避免广义代理规则抢先匹配国内服务。
-
-主要规则来源：
-
-- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)：China、Lan、Apple、BiliBili、YouTube、Telegram、Google、Microsoft、GitHub、Proxy 和各媒体/AI分类，按 24 小时更新。
-- [墨鱼 ddgksf2013](https://github.com/ddgksf2013)：规则修正、广告、AI、媒体和重写模块。
-- [Cats-Team AdRules](https://github.com/Cats-Team/AdRules)：广告拦截。
-- [毒奶 Profiles4limbo](https://github.com/limbopro/Profiles4limbo)：AI 和流媒体补充规则。
-
-所有远程规则都保留 `update-interval`，QX 会自动更新；Shadowrocket 的 `RULE-SET` 会由客户端按规则资源机制更新。公开仓库只引用规则地址，不包含私人订阅。
+配置只引用公开、可更新的规则模块；私人订阅应通过私有 NAS 地址或私有配置服务提供。
 
 ## 自动更新
 
