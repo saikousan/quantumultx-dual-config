@@ -9,12 +9,14 @@
 - 策略组统一使用“我的”前缀，例如“我的自动优选”“我的AI美国优选”“我的远程连接”“我的兜底”。
 - Netflix、Disney+、TikTok 使用“我的自动优选”，不再强制美国节点；只有 AI 使用美国优选。
 - AI 规则进入“我的AI故障切换”：先使用美国节点组，美国不可用时切换到私有版中命名为“我的迪拜兜底”的节点。
+- Apple TV 使用仓库内的 `resource-parser.js`；GitHub Actions 会从 KOP-XIAO 自动同步解析器，避免 TV 端依赖失效或被限速的第三方解析地址。
 
 完整版还包括 Netflix、Disney+、TikTok、OpenAI、Bard、Claude、机场专线、毒奶广告计划、Sub-Store 以及墨鱼的开屏广告、微博、小红书、百度网盘等远程模块。Apple TV 版保留必要的分流模块，但关闭重写、任务和 UDP 丢弃，避免影响 NAS 视频吞吐。
 
 ## 使用前必须填写
 
 在 `[server_remote]` 中加入自己的机场订阅；在 `[server_local]` 中加入自建节点。不要把真实订阅地址提交到公开仓库。
+对于 Shadowrocket/AnyTLS 格式，在订阅地址后加 `#UA=1`，让解析器用 Shadowrocket UA 重试获取节点。
 
 ## 远程 IPv4/IPv6 服务
 
