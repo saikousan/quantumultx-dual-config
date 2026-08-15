@@ -1,11 +1,13 @@
 # Quantumult X 双配置模板
 
-这是不含私人订阅、UUID、密码和 Reality 密钥的公开模板仓库。
+这是不含私人订阅、UUID、密码和 Reality 密钥的公开模板仓库。配置主体来自墨鱼配置，结合 Profiles4limbo、KOP-XIAO、blackmatrix7、AdRules 和 Sub-Store 的公开模块。
 
 ## 文件
 
 - `AppleTV-Gateway.conf`：Apple TV 旁路由，优先保证局域网和 Infuse/NAS 稳定。
 - `Desktop-Mobile-Full.conf`：手机和电脑使用，包含远程规则、广告重写和 AI 分流。
+
+完整版还包括 Netflix、Disney+、TikTok、OpenAI、Bard、Claude、机场专线、毒奶广告计划、Sub-Store 以及墨鱼的开屏广告、微博、小红书、百度网盘等远程模块。Apple TV 版保留必要的分流模块，但关闭重写、任务和 UDP 丢弃，避免影响 NAS 视频吞吐。
 
 ## 使用前必须填写
 
