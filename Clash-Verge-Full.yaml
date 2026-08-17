@@ -16,7 +16,9 @@ external-controller: 127.0.0.1:9090
 # 公共模板不主动接管系统流量；导入后在 Clash Verge 中按需开启 TUN。
 tun:
   enable: false
+  device: ClashVergeREV
   stack: mixed
+  mtu: 1500
   auto-route: true
   auto-detect-interface: true
   dns-hijack: ["any:53", "tcp://any:53"]
@@ -26,12 +28,13 @@ profile:
   store-fake-ip: true
 
 geodata-mode: true
+geodata-loader: standard
 geo-auto-update: true
 geo-update-interval: 24
 geox-url:
-  geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
-  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
-  mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+  geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 
 dns:
   enable: true
