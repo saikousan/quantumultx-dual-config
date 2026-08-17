@@ -1,4 +1,4 @@
-# Quantumult X / Shadowrocket 双客户端配置模板
+# Quantumult X / Shadowrocket / Clash Verge 三客户端配置模板
 
 这是不含私人订阅、UUID、密码和 Reality 密钥的公开模板仓库。配置主体来自墨鱼配置，结合 Profiles4limbo、KOP-XIAO、blackmatrix7、AdRules 和 Sub-Store 的公开模块。
 
@@ -7,7 +7,8 @@
 - `AppleTV-Gateway.conf`：Apple TV 旁路由，优先保证局域网和 Infuse/NAS 稳定。
 - `Desktop-Mobile-Full.conf`：手机和电脑使用，包含远程规则、广告重写和 AI 分流。
 - `Shadowrocket.conf`：小飞机公开配置模板，使用 Shadowrocket 原生 `[Proxy Group]`、`[Rule]` 和远程规则集。
-- 三套配置按同一规则逻辑维护：QX Apple TV、QX 手机/电脑和 Shadowrocket；规则源更新时同步调整三套，私人节点只写入各自 iCloud 私人文件。
+- `Clash-Verge-Full.yaml`：Clash Verge Rev / Mihomo 公开模板，使用 `proxy-providers`、`url-test`、`fallback` 和 `GEOSITE`。
+- 四套配置按同一规则逻辑维护：QX Apple TV、QX 手机/电脑、Shadowrocket 和 Clash Verge；规则源更新时同步调整四套，私人节点只写入各自 iCloud 私人文件。
 - `Modules/README.md`：小飞机模块来源、更新和 MITM 叠加注意事项。
 - 策略组统一使用“我的”前缀，例如“我的自动优选”“我的AI优选”“我的远程连接”“我的兜底”。
 - Netflix、Disney+、TikTok 使用独立的“我的影视优选”，不强制美国节点；AI 使用美国/Dubai 延迟优选。
