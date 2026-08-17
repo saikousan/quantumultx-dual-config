@@ -1,0 +1,131 @@
+# Clash Verge / Mihomo 公共模板（不含节点、UUID、密码和私人订阅）
+# 私人版请使用同目录 iCloud/Clash Verge/Clash-Verge-Personal.yaml。
+# 规则顺序：局域网/NAS直连 → 中国服务直连 → AI/媒体专用策略 → 普通海外自动优选 → 兜底。
+# 运行环境：Clash Verge Rev + Mihomo 内核。
+
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+geodata-mode: true
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "+.home.arpa"
+    - "localhost.ptlogin2.qq.com"
+    - "+.stun.playstation.net"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.xboxlive.com"
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  nameserver:
+    - https://223.5.5.5/dns-query
+    - https://1.12.12.12/dns-query
+    - 223.5.5.5
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+
+# 公共模板没有代理节点，保留可导入、可检查的 DIRECT 策略。
+proxies:
+  - {name: DIRECT, type: direct}
+
+proxy-groups:
+  - name: 我的自动优选
+    type: select
+    proxies: [DIRECT]
+  - name: 我的影视优选
+    type: select
+    proxies: [DIRECT]
+  - name: 我的AI优选
+    type: select
+    proxies: [DIRECT]
+  - name: 我的远程连接
+    type: select
+    proxies: [DIRECT]
+  - name: 我的兜底
+    type: select
+    proxies: [DIRECT]
+
+rules:
+  # LAN/NAS/IPv4/IPv6 内网永远直连，避免 Apple TV 旁路由影响 Infuse/SMB。
+  - DOMAIN-SUFFIX,lan,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,infuse.tv,DIRECT
+  - DOMAIN-SUFFIX,firecore.com,DIRECT
+  - DOMAIN-SUFFIX,cheers.app,DIRECT
+
+  # 中国常用服务直连（包含微信、DeepSeek、豆包、钉钉、飞书和银行）。
+  - GEOSITE,private,DIRECT
+  - GEOSITE,cn,DIRECT
+  - DOMAIN-SUFFIX,deepseek.com,DIRECT
+  - DOMAIN-SUFFIX,deepseek.ai,DIRECT
+  - DOMAIN-SUFFIX,doubao.com,DIRECT
+  - DOMAIN-SUFFIX,volcengine.com,DIRECT
+  - DOMAIN-SUFFIX,volces.com,DIRECT
+  - DOMAIN-SUFFIX,feishu.cn,DIRECT
+  - DOMAIN-SUFFIX,larksuite.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalkapps.com,DIRECT
+  - DOMAIN-SUFFIX,alipay.com,DIRECT
+  - DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+  - DOMAIN-SUFFIX,unionpay.com,DIRECT
+  - DOMAIN-SUFFIX,cmbchina.com,DIRECT
+  - DOMAIN-SUFFIX,icbc.com.cn,DIRECT
+  - DOMAIN-SUFFIX,ccb.com,DIRECT
+  - DOMAIN-SUFFIX,boc.cn,DIRECT
+  - DOMAIN-SUFFIX,abcchina.com,DIRECT
+  - DOMAIN-SUFFIX,psbc.com,DIRECT
+  - DOMAIN-SUFFIX,bankcomm.com,DIRECT
+  - DOMAIN-SUFFIX,citicbank.com,DIRECT
+  - DOMAIN-SUFFIX,cmbc.com.cn,DIRECT
+  - DOMAIN-SUFFIX,spdb.com.cn,DIRECT
+  - DOMAIN-SUFFIX,cib.com.cn,DIRECT
+  - DOMAIN-SUFFIX,pingan.com,DIRECT
+
+  # AI：私人版自动在美国节点中选延迟最低，失败时回退 Dubai。
+  - GEOSITE,category-ai-!cn,我的AI优选
+  - GEOSITE,openai,我的AI优选
+  - GEOSITE,anthropic,我的AI优选
+  - GEOSITE,gemini,我的AI优选
+
+  # 媒体：不强制美国，按可用节点和延迟选择；Netflix/Disney/TikTok 同一影视策略。
+  - GEOSITE,netflix,我的影视优选
+  - GEOSITE,disney,我的影视优选
+  - GEOSITE,tiktok,我的影视优选
+  - GEOSITE,youtube,我的影视优选
+  - GEOSITE,spotify,我的影视优选
+
+  - MATCH,我的兜底
