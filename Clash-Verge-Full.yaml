@@ -13,6 +13,14 @@ unified-delay: true
 tcp-concurrent: true
 external-controller: 127.0.0.1:9090
 
+# 公共模板不主动接管系统流量；导入后在 Clash Verge 中按需开启 TUN。
+tun:
+  enable: false
+  stack: mixed
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack: ["any:53", "tcp://any:53"]
+
 profile:
   store-selected: true
   store-fake-ip: true
