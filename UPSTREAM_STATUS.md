@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-09-03 04:34 UTC
+最后检查：2026-09-03 11:15 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -131,7 +131,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/AI_Platforms_qx.list` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/saikousan/quantumultx-dual-config/main/resource-parser.js` | 200 | `e3b0c44298fc` |
-| `https://raw.githubusercontent.com/uxudjs/Shadowrocket/main/lists/fuck_ad_sr.list` | 200 | `e3b0c44298fc` |
+| `https://raw.githubusercontent.com/uxudjs/Shadowrocket/main/lists/fuck_ad_sr.list` | error | `TimeoutError` |
 | `https://shrtm.nu/gCi` | error | `HTTPError` |
 | `https://t.me/ddgksf2021` | 200 | `e3b0c44298fc` |
 | `https://你的第二个私有订阅地址` | error | `UnicodeEncodeError` |
