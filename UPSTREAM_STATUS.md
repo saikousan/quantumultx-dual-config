@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-09-17 17:00 UTC
+最后检查：2026-09-17 21:23 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -124,7 +124,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WeChat/WeChat.list` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js` | 200 | `e3b0c44298fc` |
-| `https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list` | error | `TimeoutError` |
+| `https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/ddgksf2013/Filter/master/Unbreak.list` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/ddgksf2013/Icon/master/qx/ai.png` | 200 | `e3b0c44298fc` |
 | `https://raw.githubusercontent.com/ddgksf2013/Icon/master/qx/googlevoice.png` | 200 | `e3b0c44298fc` |
