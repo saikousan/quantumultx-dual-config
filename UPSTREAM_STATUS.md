@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-09-23 21:31 UTC
+最后检查：2026-09-24 04:52 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -14,7 +14,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://223.6.6.6/dns-query` | error | `HTTPError` |
 | `https://223.6.6.6/dns-query)QX1.0.30+` | error | `HTTPError` |
 | `https://anti-ad.net/surge2.txt]更换为[https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf]` | error | `UnicodeEncodeError` |
-| `https://cdn.jsdelivr.net/gh/ddgksf2013/Profile/QuantumultX.conf` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/ddgksf2013/Profile/QuantumultX.conf` | error | `HTTPError` |
 | `https://d-updater.i4.cn/web/mobileconfig/iOS18.mobileconfig` | 200 | `e3b0c44298fc` |
 | `https://ddgksf2013.top/Profile/QuantumultX.conf` | 200 | `e3b0c44298fc` |
 | `https://ddgksf2013.top/filter/Ai.yaml` | 200 | `e3b0c44298fc` |
@@ -27,7 +27,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://ddgksf2013.top/scripts/zhihu.ads.js` | 200 | `e3b0c44298fc` |
 | `https://dns.alidns.com/dns-query` | error | `HTTPError` |
 | `https://docs.boxjs.app」` | error | `UnicodeEncodeError` |
-| `https://doh.pub/dns-query` | error | `HTTPError` |
+| `https://doh.pub/dns-query` | error | `URLError` |
 | `https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Advertising.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Apple.png` | 200 | `e3b0c44298fc` |
