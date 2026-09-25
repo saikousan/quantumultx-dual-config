@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-09-25 17:12 UTC
+最后检查：2026-09-25 21:35 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -27,7 +27,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://ddgksf2013.top/scripts/zhihu.ads.js` | 200 | `e3b0c44298fc` |
 | `https://dns.alidns.com/dns-query` | error | `HTTPError` |
 | `https://docs.boxjs.app」` | error | `UnicodeEncodeError` |
-| `https://doh.pub/dns-query` | error | `URLError` |
+| `https://doh.pub/dns-query` | error | `HTTPError` |
 | `https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Advertising.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Apple.png` | 200 | `e3b0c44298fc` |
