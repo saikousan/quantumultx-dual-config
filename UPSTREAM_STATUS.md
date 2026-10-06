@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-06 00:04 UTC
+最后检查：2026-10-06 06:21 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -16,15 +16,15 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://anti-ad.net/surge2.txt]更换为[https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf]` | error | `UnicodeEncodeError` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Profile/QuantumultX.conf` | error | `HTTPError` |
 | `https://d-updater.i4.cn/web/mobileconfig/iOS18.mobileconfig` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/Profile/QuantumultX.conf` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/filter/Ai.yaml` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/rewrite/BiliBiliAdsLite.conf` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/rewrite/StartUpAds.conf` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/scripts/bdpan.ads.js` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/scripts/bdpan.unlock.js` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/scripts/server-info-pure.js` | 200 | `e3b0c44298fc` |
-| `https://ddgksf2013.top/scripts/zhihu.ads.js` | 200 | `e3b0c44298fc` |
+| `https://ddgksf2013.top/Profile/QuantumultX.conf` | error | `HTTPError` |
+| `https://ddgksf2013.top/filter/Ai.yaml` | error | `HTTPError` |
+| `https://ddgksf2013.top/rewrite/BiliBiliAdsLite.conf` | error | `HTTPError` |
+| `https://ddgksf2013.top/rewrite/StartUpAds.conf` | error | `HTTPError` |
+| `https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf` | error | `HTTPError` |
+| `https://ddgksf2013.top/scripts/bdpan.ads.js` | error | `HTTPError` |
+| `https://ddgksf2013.top/scripts/bdpan.unlock.js` | error | `HTTPError` |
+| `https://ddgksf2013.top/scripts/server-info-pure.js` | error | `HTTPError` |
+| `https://ddgksf2013.top/scripts/zhihu.ads.js` | error | `HTTPError` |
 | `https://dns.alidns.com/dns-query` | error | `HTTPError` |
 | `https://docs.boxjs.app」` | error | `UnicodeEncodeError` |
 | `https://doh.pub/dns-query` | error | `HTTPError` |
