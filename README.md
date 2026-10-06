@@ -14,6 +14,8 @@
 - Netflix、Disney+、TikTok 使用独立的“我的影视优选”，不强制美国节点；AI 使用美国/Dubai 延迟优选。
 - AI 规则进入“我的AI优选”，只筛选美国和 `Dubai` 节点，不使用策略套策略，避免 QX 报错。
 - Apple TV 使用仓库内的 `resource-parser.js`；GitHub Actions 会从 KOP-XIAO 自动同步解析器，避免 TV 端依赖失效或被限速的第三方解析地址。
+- 资源更新采用“节点订阅独立、规则资源独立”的结构：机场节点放在 `[server_remote]`，规则放在 `[filter_remote]`；规则暂时不可用时不会阻塞节点订阅更新。AI 不再依赖容易失效的单一 `Ai.yaml`，改为 OpenAI、Gemini、Claude 和 Profiles4limbo 四组可独立更新的规则。
+- QX、Shadowrocket 和 Clash Verge 均加入 UU 远程入口的直连例外；媒体策略不锁定单一国家，AI 才使用美国优选并以 `Dubai` 故障回退。
 
 完整版还包括 Netflix、Disney+、TikTok、OpenAI、Bard、Claude、机场专线、毒奶广告计划、Sub-Store 以及墨鱼的开屏广告、微博、小红书、百度网盘等远程模块。Apple TV 版保留必要的分流模块，但关闭重写、任务和 UDP 丢弃，避免影响 NAS 视频吞吐。
 
