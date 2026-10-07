@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-07 13:25 UTC
+最后检查：2026-10-07 23:06 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -100,7 +100,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/WeiboAds.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf` | 200 | `e3b0c44298fc` |
-| `https://github.com/ddgksf2013/Rewrite/raw/master/Html/Douban.conf` | error | `HTTPError` |
+| `https://github.com/ddgksf2013/Rewrite/raw/master/Html/Douban.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/Html/General.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf` | 200 | `e3b0c44298fc` |
 | `https://github.githubassets.com/images/modules/site/integrators/google.png` | error | `HTTPError` |
