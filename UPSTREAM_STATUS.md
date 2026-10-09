@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-09 06:13 UTC
+最后检查：2026-10-09 13:18 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -31,7 +31,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Proxy/Proxy.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Proxy/Proxy.list` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/WeChat/WeChat.list` | 200 | `e3b0c44298fc` |
@@ -68,41 +68,41 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://ddgksf2013.top/scripts/server-info-pure.js` | 200 | `e3b0c44298fc` |
 | `https://dns.alidns.com/dns-query` | error | `HTTPError` |
 | `https://docs.boxjs.app」` | error | `UnicodeEncodeError` |
-| `https://doh.pub/dns-query` | error | `URLError` |
+| `https://doh.pub/dns-query` | error | `HTTPError` |
 | `https://gist.githubusercontent.com/ddgksf2013/12ef6aad209155e7eb62c5b00c11b9dd/raw/StartUpAds.conf` | error | `HTTPError` |
 | `https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js` | error | `HTTPError` |
 | `https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb` | 200 | `e3b0c44298fc` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Advertising.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Apple.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/China.png` | error | `TimeoutError` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Advertising.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Apple.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/China.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Direct.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Global.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/GlobalMedia.png` | 200 | `e3b0c44298fc` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Google.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Netease_Music.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Spotify.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/WeChat.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Weibo.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/YouTube.png` | error | `TimeoutError` |
-| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/bilibili.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/blob/master/README.md` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/baiduwangpan.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/caiyuntianqi.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/douban.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/gaode.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/search.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/xianyu.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/xiaohongshu.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Icon/raw/master/qx/zhihu.png` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/AmapAds.conf` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/GoofishAds.conf` | error | `TimeoutError` |
-| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf` | error | `TimeoutError` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Google.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Netease_Music.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Spotify.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/WeChat.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Weibo.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/YouTube.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/Koolson/Qure/raw/master/IconSet/mini/bilibili.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/blob/master/README.md` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/baiduwangpan.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/caiyuntianqi.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/douban.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/gaode.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/search.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/xianyu.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/xiaohongshu.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/raw/master/qx/zhihu.png` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/AmapAds.conf` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/GoofishAds.conf` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/WeiboAds.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/Html/Douban.conf` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Rewrite/raw/master/Html/General.conf` | 200 | `e3b0c44298fc` |
-| `https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf` | error | `TimeoutError` |
+| `https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf` | 200 | `e3b0c44298fc` |
 | `https://github.githubassets.com/images/modules/site/integrators/google.png` | error | `HTTPError` |
 | `https://limbopro.com/Adblock4limbo.conf` | error | `HTTPError` |
 | `https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js` | 200 | `e3b0c44298fc` |
