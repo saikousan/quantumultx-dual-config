@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-10 12:33 UTC
+最后检查：2026-10-10 21:45 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -85,7 +85,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Weibo.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/YouTube.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/bilibili.png` | 200 | `e3b0c44298fc` |
-| `https://github.com/ddgksf2013/Icon/blob/master/README.md` | 200 | `e3b0c44298fc` |
+| `https://github.com/ddgksf2013/Icon/blob/master/README.md` | error | `HTTPError` |
 | `https://github.com/ddgksf2013/Icon/raw/master/qx/baiduwangpan.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Icon/raw/master/qx/caiyuntianqi.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Icon/raw/master/qx/douban.png` | 200 | `e3b0c44298fc` |
