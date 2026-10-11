@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-11 12:51 UTC
+最后检查：2026-10-11 21:59 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -14,7 +14,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://223.6.6.6/dns-query` | error | `HTTPError` |
 | `https://223.6.6.6/dns-query)QX1.0.30+` | error | `HTTPError` |
 | `https://anti-ad.net/surge2.txt]更换为[https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf]` | error | `UnicodeEncodeError` |
-| `https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/Peng-YM/Sub-Store@master/config/QX.snippet` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/app2smile/rules@master/module/spotify.conf` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list` | 200 | `e3b0c44298fc` |
