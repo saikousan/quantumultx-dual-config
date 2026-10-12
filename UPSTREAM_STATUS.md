@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-12 05:59 UTC
+最后检查：2026-10-12 15:28 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -14,8 +14,8 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://223.6.6.6/dns-query` | error | `HTTPError` |
 | `https://223.6.6.6/dns-query)QX1.0.30+` | error | `HTTPError` |
 | `https://anti-ad.net/surge2.txt]更换为[https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf]` | error | `UnicodeEncodeError` |
-| `https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/Peng-YM/Sub-Store@master/config/QX.snippet` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/Peng-YM/Sub-Store@master/config/QX.snippet` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/app2smile/rules@master/module/spotify.conf` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/AppleTV/AppleTV.list` | 200 | `e3b0c44298fc` |
@@ -23,14 +23,14 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/China/China.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Claude/Claude.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/DingTalk/DingTalk.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/DingTalk/DingTalk.list` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Disney/Disney.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GitHub/GitHub.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GlobalMedia/GlobalMedia.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/HBO/HBO.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Proxy/Proxy.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list` | 200 | `e3b0c44298fc` |
@@ -85,7 +85,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/Weibo.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/YouTube.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/Koolson/Qure/raw/master/IconSet/mini/bilibili.png` | 200 | `e3b0c44298fc` |
-| `https://github.com/ddgksf2013/Icon/blob/master/README.md` | error | `HTTPError` |
+| `https://github.com/ddgksf2013/Icon/blob/master/README.md` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Icon/raw/master/qx/baiduwangpan.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Icon/raw/master/qx/caiyuntianqi.png` | 200 | `e3b0c44298fc` |
 | `https://github.com/ddgksf2013/Icon/raw/master/qx/douban.png` | 200 | `e3b0c44298fc` |
