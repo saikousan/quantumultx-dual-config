@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-13 00:41 UTC
+最后检查：2026-10-13 14:13 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -41,7 +41,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/BiliBili/BiliBili.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/China/China.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Claude/Claude.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/DingTalk/DingTalk.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/DingTalk/DingTalk.list` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Disney/Disney.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/GitHub/GitHub.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/HBO/HBO.list` | 200 | `e3b0c44298fc` |
@@ -58,7 +58,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Profile/QuantumultX.conf` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/BilibiliAds.conf` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/XiaoHongShuAds.conf` | error | `HTTPError` |
-| `https://cdn.jsdelivr.net/gh/limbopro/Profiles4limbo@main/AI_Platforms_qx.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/limbopro/Profiles4limbo@main/AI_Platforms_qx.list` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/saikousan/quantumultx-dual-config@main/resource-parser.js` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/uxudjs/Shadowrocket@main/lists/fuck_ad_sr.list` | 200 | `e3b0c44298fc` |
 | `https://d-updater.i4.cn/web/mobileconfig/iOS18.mobileconfig` | 200 | `e3b0c44298fc` |
