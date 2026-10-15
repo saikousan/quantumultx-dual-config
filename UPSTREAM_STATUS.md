@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-14 21:44 UTC
+最后检查：2026-10-15 04:41 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -15,29 +15,29 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://223.6.6.6/dns-query)QX1.0.30+` | error | `HTTPError` |
 | `https://anti-ad.net/surge2.txt]更换为[https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf]` | error | `UnicodeEncodeError` |
 | `https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/Peng-YM/Sub-Store@master/config/QX.snippet` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/app2smile/rules@master/module/spotify.conf` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/Peng-YM/Sub-Store@master/config/QX.snippet` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/app2smile/rules@master/module/spotify.conf` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/AppleTV/AppleTV.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BardAI/BardAI.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/AppleTV/AppleTV.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BardAI/BardAI.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/China/China.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Claude/Claude.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/DingTalk/DingTalk.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Disney/Disney.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GitHub/GitHub.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GlobalMedia/GlobalMedia.list` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Claude/Claude.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/DingTalk/DingTalk.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Disney/Disney.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GitHub/GitHub.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GlobalMedia/GlobalMedia.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/HBO/HBO.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Proxy/Proxy.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/WeChat/WeChat.list` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Proxy/Proxy.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/WeChat/WeChat.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/YouTube/YouTube.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Apple/Apple.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/AppleTV/AppleTV.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/AppleTV/AppleTV.list` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/BiliBili/BiliBili.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/China/China.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Claude/Claude.list` | 200 | `e3b0c44298fc` |
@@ -57,10 +57,10 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Filter@master/Unbreak.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Profile/QuantumultX.conf` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/BilibiliAds.conf` | error | `TimeoutError` |
-| `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/XiaoHongShuAds.conf` | error | `TimeoutError` |
+| `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/XiaoHongShuAds.conf` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/limbopro/Profiles4limbo@main/AI_Platforms_qx.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/saikousan/quantumultx-dual-config@main/resource-parser.js` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/uxudjs/Shadowrocket@main/lists/fuck_ad_sr.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/uxudjs/Shadowrocket@main/lists/fuck_ad_sr.list` | error | `TimeoutError` |
 | `https://d-updater.i4.cn/web/mobileconfig/iOS18.mobileconfig` | 200 | `e3b0c44298fc` |
 | `https://ddgksf2013.top/Profile/QuantumultX.conf` | 200 | `e3b0c44298fc` |
 | `https://ddgksf2013.top/scripts/bdpan.ads.js` | 200 | `e3b0c44298fc` |
