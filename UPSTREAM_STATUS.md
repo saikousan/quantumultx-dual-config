@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-16 16:41 UTC
+最后检查：2026-10-16 21:10 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -17,7 +17,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/Cats-Team/AdRules@main/qx.conf` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/Peng-YM/Sub-Store@master/config/QX.snippet` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/app2smile/rules@master/module/spotify.conf` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list` | error | `HTTPError` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/AppleTV/AppleTV.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BardAI/BardAI.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list` | 200 | `e3b0c44298fc` |
@@ -30,9 +30,9 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/HBO/HBO.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | error | `HTTPError` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/PrimeVideo/PrimeVideo.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Proxy/Proxy.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list` | error | `HTTPError` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/WeChat/WeChat.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/YouTube/YouTube.list` | 200 | `e3b0c44298fc` |
@@ -68,7 +68,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://ddgksf2013.top/scripts/server-info-pure.js` | 200 | `e3b0c44298fc` |
 | `https://dns.alidns.com/dns-query` | error | `HTTPError` |
 | `https://docs.boxjs.app」` | error | `UnicodeEncodeError` |
-| `https://doh.pub/dns-query` | error | `HTTPError` |
+| `https://doh.pub/dns-query` | error | `URLError` |
 | `https://gist.githubusercontent.com/ddgksf2013/12ef6aad209155e7eb62c5b00c11b9dd/raw/StartUpAds.conf` | error | `HTTPError` |
 | `https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js` | error | `HTTPError` |
 | `https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb` | 200 | `e3b0c44298fc` |
