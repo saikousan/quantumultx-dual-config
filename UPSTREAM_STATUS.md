@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-20 11:38 UTC
+最后检查：2026-10-20 17:08 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -56,7 +56,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Filter@master/GoogleVoice.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Filter@master/Unbreak.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Profile/QuantumultX.conf` | error | `HTTPError` |
-| `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/BilibiliAds.conf` | error | `HTTPError` |
+| `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/BilibiliAds.conf` | error | `TimeoutError` |
 | `https://cdn.jsdelivr.net/gh/ddgksf2013/Rewrite@master/AdBlock/XiaoHongShuAds.conf` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/limbopro/Profiles4limbo@main/AI_Platforms_qx.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/saikousan/quantumultx-dual-config@main/resource-parser.js` | 200 | `e3b0c44298fc` |
