@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-10-28 05:43 UTC
+最后检查：2026-10-28 12:55 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -19,7 +19,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/app2smile/rules@master/module/spotify.conf` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/AppleTV/AppleTV.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BardAI/BardAI.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BardAI/BardAI.list` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/China/China.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Claude/Claude.list` | 200 | `e3b0c44298fc` |
