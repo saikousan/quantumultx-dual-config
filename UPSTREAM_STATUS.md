@@ -1,6 +1,6 @@
 # 上游模块状态
 
-最后检查：2026-11-19 07:26 UTC
+最后检查：2026-11-19 20:38 UTC
 
 QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录公开模块可访问性和内容摘要。
 
@@ -48,7 +48,7 @@ QX 会按照配置中的 `update-interval` 自动更新模块；本表只记录�
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Lan/Lan.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Netflix/Netflix.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/OpenAI/OpenAI.list` | 200 | `e3b0c44298fc` |
-| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/PrimeVideo/PrimeVideo.list` | 200 | `e3b0c44298fc` |
+| `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/PrimeVideo/PrimeVideo.list` | error | `HTTPError` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Spotify/Spotify.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/TikTok/TikTok.list` | 200 | `e3b0c44298fc` |
 | `https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/WeChat/WeChat.list` | 200 | `e3b0c44298fc` |
